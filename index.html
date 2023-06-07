@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Youtube</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <div id="main">
+
+      <div id="container">
+        <div class="container_left">
+          <button class="button_guide-selection" type="button" onclick="alert('Hiển thị guide-selection')">
+            <i class="fa fa-xl fa-bars"></i>
+          </button>
+
+          <div class="logo_Youtube">
+            <a href="https://www.youtube.com/" name="logo_Youtube" class="logo_and_name_Youtube" target="_blank">
+                <i class="fa-brands fa-xl fa-youtube" style="color: #ff0000;"></i>
+                <h3 class="name_logo_youtube">YouTube</h3>
+                <p class="text_logo_Youtube">VN</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="container_center">
+            <div class="content_center_1">
+                <div class="text_search">
+                  <label for="text_search_button" ></label>
+                  <input type="text" id="text_search_button" name="Tìm kiếm" placeholder="Tìm kiếm"> 
+                  <i class="fa-solid fa-keyboard"></i>            
+                </div>
+    
+                <button class="button_search" type="button" onclick="alert('đang tìm kiếm')">
+                  <i class="fa fa-lg fa-search"></i>
+                </button>
+            </div>
+
+
+            <div class="button_speak">
+                <button class="img_button_speak" type="button" onclick="alert('Xin mời nói!')">
+                    <i class="fa-solid fa-microphone fa-xl"></i>
+                </button>
+            </div>
+        </div>
+        <div class="container_right">
+          <button class="icon_camera" type="button" onclick="alert('Tải video lên')">
+            <i class="fa fa-xl fa-video-camera"></i>
+          </button>
+
+          <button class="icon_notice" type="button" onclick="alert('Không có thông báo nào')">
+            <i class="fa fa-xl fa-bell"></i>
+          </button>
+
+          <a href="https://www.facebook.com/UETTung/" name="Trang cá nhân" class="avtUser" target="_blank">
+            <img src="./assets/img/co_VN.jpg" alt="avt" class="avtUserMini"> 
+          </a>
+        </div>
+      </div>
+
+      <div id="main_2">
+
+        <div id="guide-selection">
+          <div class="sideabar_left">
+            <ul>
+              <ul class="sidebar_line_first">
+                <li>
+                  <button class="items" type="button" onclick="alert('Trang chủ')">
+                    <i class="fa-solid fa-xl fa-house"></i>
+                    <p class="text_button">Trang chủ</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="items" type="button" onclick="alert('Shorts')">
+                    <i class="fa-solid fa-xl fa-film"></i>
+                    <p class="text_button">Shorts</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="items" type="button" onclick="alert('Kênh đăng ký')">
+                    <i class="fa-brands fa-xl fa-youtube"></i>
+                    <p class="text_button">Kênh đăng ký</p>
+                  </button>
+                </li>
+              </ul>
+              <ul class="sidebar_line">
+                <li>
+                  <button class="items" type="button" onclick="alert('Thư viện')">
+                    <i class="fa-solid fa-xl fa-bookmark"></i>
+                    <p class="text_button">Thư viện</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="items" type="button" onclick="alert('Video đã xem')">
+                    <i class="fa-solid fa-xl fa-clock-rotate-left"></i>
+                    <p class="text_button">Video đã xem</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="items" type="button" onclick="alert('Video của bạn')">
+                    <i class="fa-solid fa-xl fa-play"></i>
+                    <p class="text_button">Video của bạn</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="items" type="button" onclick="alert('Xem sau')">
+                    <i class="fa-solid fa-xl fa-clock"></i>
+                    <p class="text_button">Xem sau</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="items" type="button" onclick="alert('Video đã thích')">
+                    <i class="fa-solid fa-xl fa-thumbs-up"></i>
+                    <p class="text_button">Video đã thích</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="items" type="button" onclick="alert('Tổng hợp')">
+                    <i class="fa-solid fa-xl fa-tower-broadcast"></i>
+                    <p class="text_button">Tổng hợp</p>
+                  </button>
+                </li>
+              </ul>
+              <ul class="sidebar_line">
+                <h3>Khám phá</h3>
+                <li>
+                  <button class="items" type="button" onclick="alert('Thịnh hành')">
+                    <i class="fa-solid fa-xl fa-fire"></i>
+                    <p class="text_button">Thịnh hành</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="items" type="button" onclick="alert('Âm nhạc')">
+                    <i class="fa-solid fa-xl fa-music"></i>
+                    <p class="text_button">Âm nhạc</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="items" type="button" onclick="alert('Trò chơi')">
+                    <i class="fa-solid fa-xl fa-gamepad"></i>
+                    <p class="text_button">Trò chơi</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="items" type="button" onclick="alert('Tin tức')">
+                    <i class="fa-solid fa-xl fa-newspaper"></i>
+                    <p class="text_button">Tin tức</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="items" type="button" onclick="alert('Thể thao')">
+                    <i class="fa-solid fa-xl fa-trophy"></i>
+                    <p class="text_button">Thể thao</p>
+                  </button>
+                </li>
+              </ul>
+              <ul class="sidebar_line">
+                <h3>Dịch vụ khác của YouTube</h3>
+                <li>
+                  <button class="items" type="button" onclick="alert('YouTube Premium')">
+                    <i class="fa-brands fa-xl fa-youtube" style="color: #ff0000;"></i>
+                    <p class="text_button">YouTube Premium</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="items" type="button" onclick="alert('YouTube Studio')">
+                    <i class="fa-solid fa-xl fa-screwdriver-wrench" style="color: #ff0000;"></i>
+                    <p class="text_button">YouTube Studio</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="items" type="button" onclick="alert('YouTube Music')">
+                    <i class="fa-solid fa-xl fa-headphones" style="color: #ff0000;"></i>
+                    <p class="text_button">YouTube Music</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="items" type="button" onclick="alert('YouTube Kids')">
+                    <i class="fa-solid fa-xl fa-child-reaching" style="color: #ff0000;"></i>
+                    <p class="text_button">YouTube Kids</p>
+                  </button>
+                </li>
+              </ul>
+              <ul class="sidebar_line">
+                <li>
+                  <button class="items" type="button" onclick="alert('Cài đặt')">
+                    <i class="fa-solid fa-xl fa-gear"></i>
+                    <p class="text_button">Cài đặt</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="items" type="button" onclick="alert('Nhật ký báo cáo')">
+                    <i class="fa-regular fa-xl fa-flag"></i>
+                    <p class="text_button">Nhật ký báo cáo</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="items" type="button" onclick="alert('Trợ giúp')">
+                    <i class="fa-regular fa-xl fa-circle-question"></i>
+                    <p class="text_button">Trợ giúp</p>
+                  </button>
+                </li>
+                <li>
+                  <button class="items" type="button" onclick="alert('Gửi ý kiến phản hồi')">
+                    <i class="fa-solid fa-xl fa-headset"></i>
+                    <p class="text_button">Gửi ý kiến phản hồi</p>
+                  </button>
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+  
+        <div id="main_content">
+            <div id="iron-selector">
+              <ul>
+                <li>
+                  <button class="items_iron_selector" type="button">
+                    <a href="" name="Trang cá nhân" class="button_iron-selector" target="_blank">Tất cả</a>
+                  </button>
+                <li>
+                  <button class="items_iron_selector" type="button">
+                    <a href="" name="Âm nhạc" class="button_iron-selector" target="_blank">Âm nhạc</a>
+                  </button>
+                </li>
+                <li>
+                  <button class="items_iron_selector" type="button">
+                    <a href="" name="Danh sách kết hợp" class="button_iron-selector" target="_blank">Danh sách kết hợp</a>
+                  </button>
+                </li>
+                <li>
+                  <button class="items_iron_selector" type="button">
+                    <a href="" name="Tin tức" class="button_iron-selector" target="_blank">Tin tức</a>
+                  </button>
+                </li>
+                <li>
+                  <button class="items_iron_selector" type="button">
+                    <a href="" name="Du lịch" class="button_iron-selector" target="_blank">Trực tiếp</a>
+                  </button>
+                </li>
+                <li>
+                  <button class="items_iron_selector" type="button">
+                    <a href="" name="Đọc rap" class="button_iron-selector" target="_blank">Trò chơi</a>
+                  </button>
+                </li>
+                <li>
+                  <button class="items_iron_selector" type="button">
+                    <a href="" name="Bóng đá" class="button_iron-selector" target="_blank">Nấu ăn</a>
+                  </button>
+                </li>
+                <li>
+                  <button class="items_iron_selector" type="button">
+                    <a href="" name="Mới tải lên gần đây" class="button_iron-selector" target="_blank">Mới tải lên gần đây</a>
+                  </button>
+                </li>
+                <li>
+                  <button class="items_iron_selector" type="button">
+                    <a href="" name="Đã xem" class="button_iron-selector" target="_blank">Đã xem</a>
+                  </button>
+                </li>
+                <li>
+                  <button class="items_iron_selector" type="button">
+                    <a href="" name="Đề xuất mới" class="button_iron-selector" target="_blank">Đề xuất mới</a>
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div id="contents">
+              <ul>
+                <li>
+                  <div class="content_video">
+                    <div class="img_video">
+                      <iframe width="343" height="193" src="https://www.youtube.com/embed/tYOsNi0I5Oc" title="YouTube video player" 
+                      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="content_name_video">
+                      <div class="img_user_video">
+                        <img src="./assets/img/popskids.jpg"  class="img_user_video">
+                      </div>
+                      <div class="name_video_and_info">
+                        <a href="https://www.youtube.com/embed/tYOsNi0I5Oc" class="name_video"><strong>[S10] Doraemon - Tập 519 - Trận Chiến Vĩ Đại Của Chúng Ta Trên Bầu Trời - Hoạt Hình Tiếng Việt</strong></a>
+                        <a href="https://www.youtube.com/@popskids" class="info_video">POPS Kids</a>
+                        <p class="info_video">2.701.785 lượt xem - 12 ngày trước</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content_video">
+                    <div class="img_video">
+                      <iframe width="343" height="193" src="https://www.youtube.com/embed/wWUEx9L4f18" title="YouTube video player" 
+                      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="content_name_video">
+                      <div class="img_user_video">
+                        <img src="./assets/img/popskids.jpg"  class="img_user_video">
+                      </div>
+                      <div class="name_video_and_info">
+                        <a href="https://www.youtube.com/embed/wWUEx9L4f18" class="name_video"><strong>[s10] Doraemon Phần 10 - Tổng Hợp Bộ Hoạt Hình Doraemon Hay Nhất - POPS Kids</strong></a>
+                        <a href="https://www.youtube.com/@popskids" class="info_video">POPS Kids</a>
+                        <p class="info_video">1.139.254 lượt xem - 1 ngày trước</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content_video">
+                    <div class="img_video">
+                      <iframe width="343" height="193" src="https://www.youtube.com/embed/aiEzbK3YszI" title="YouTube video player" 
+                      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="content_name_video">
+                      <div class="img_user_video">
+                        <img src="./assets/img/popskids.jpg"  class="img_user_video">
+                      </div>
+                      <div class="name_video_and_info">
+                        <a href="https://www.youtube.com/embed/aiEzbK3YszI" class="name_video"><strong>[S10] Doraemon - Tập 491 - Tôm Chiên Của Nobita, Mọi Người Ơi! Cứu Mình Với! - Hoạt Hình Tiếng Viêt</strong></a>
+                        <a href="https://www.youtube.com/@popskids" class="info_video">POPS Kids</a>
+                        <p class="info_video">8.198.309 lượt xem - 4 tháng trước</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content_video">
+                    <div class="img_video">
+                      <iframe width="343" height="193" src="https://www.youtube.com/embed/KcsE_ETwLPo" title="YouTube video player" 
+                      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="content_name_video">
+                      <div class="img_user_video">
+                        <img src="./assets/img/popskids.jpg"  class="img_user_video">
+                      </div>
+                      <div class="name_video_and_info">
+                        <a href="https://www.youtube.com/embed/KcsE_ETwLPo" class="name_video"><strong>[S9] Doraemon - Tập 456 - Du Lịch Hawaii Cùng Hạt Dẻ - Đôi Cánh Của Shizuka - Hoạt Hình Tiếng Việt</strong></a>
+                        <a href="https://www.youtube.com/@popskids" class="info_video">POPS Kids</a>
+                        <p class="info_video">8.107.788 lượt xem - 8 tháng trước</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content_video">
+                    <div class="img_video">
+                      <iframe width="343" height="193" src="https://www.youtube.com/embed/qK7_oXi3aH4" title="YouTube video player" 
+                      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="content_name_video">
+                      <div class="img_user_video">
+                        <img src="./assets/img/popskids.jpg"  class="img_user_video">
+                      </div>
+                      <div class="name_video_and_info">
+                        <a href="https://www.youtube.com/embed/qK7_oXi3aH4" class="name_video"><strong>[S5] Doraemon - Tập 216 - Muốn Ăn Thì Lăn Vào Bếp, Áo Khoác Thám Hiểm - Hoạt Hình Tiếng Việt</strong></a>
+                        <a href="https://www.youtube.com/@popskids" class="info_video">POPS Kids</a>
+                        <p class="info_video">10.172.201 lượt xem - 6 tháng trước</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content_video">
+                    <div class="img_video">
+                      <iframe width="343" height="193" src="https://www.youtube.com/embed/wWUEx9L4f18" title="YouTube video player" 
+                      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="content_name_video">
+                      <div class="img_user_video">
+                        <img src="./assets/img/popskids.jpg"  class="img_user_video">
+                      </div>
+                      <div class="name_video_and_info">
+                        <a href="https://www.youtube.com/embed/wWUEx9L4f18" class="name_video"><strong>[s10] Doraemon Phần 10 - Tổng Hợp Bộ Hoạt Hình Doraemon Hay Nhất - POPS Kids</strong></a>
+                        <a href="https://www.youtube.com/@popskids" class="info_video">POPS Kids</a>
+                        <p class="info_video">1.139.254 lượt xem - 1 ngày trước</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content_video">
+                    <div class="img_video">
+                      <iframe width="343" height="193" border-radius="10" src="https://www.youtube.com/embed/wWUEx9L4f18" title="YouTube video player" 
+                      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="content_name_video">
+                      <div class="img_user_video">
+                        <img src="./assets/img/popskids.jpg"  class="img_user_video">
+                      </div>
+                      <div class="name_video_and_info">
+                        <a href="https://www.youtube.com/embed/wWUEx9L4f18" class="name_video"><strong>[s10] Doraemon Phần 10 - Tổng Hợp Bộ Hoạt Hình Doraemon Hay Nhất - POPS Kids</strong></a>
+                        <a href="https://www.youtube.com/@popskids" class="info_video">POPS Kids</a>
+                        <p class="info_video">1.139.254 lượt xem - 1 ngày trước</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content_video">
+                    <div class="img_video">
+                      <iframe width="343" height="193" src="https://www.youtube.com/embed/wWUEx9L4f18" title="YouTube video player" 
+                      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="content_name_video">
+                      <div class="img_user_video">
+                        <img src="./assets/img/popskids.jpg"  class="img_user_video">
+                      </div>
+                      <div class="name_video_and_info">
+                        <a href="https://www.youtube.com/embed/wWUEx9L4f18" class="name_video"><strong>[s10] Doraemon Phần 10 - Tổng Hợp Bộ Hoạt Hình Doraemon Hay Nhất - POPS Kids</strong></a>
+                        <a href="https://www.youtube.com/@popskids" class="info_video">POPS Kids</a>
+                        <p class="info_video">1.139.254 lượt xem - 1 ngày trước</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content_video">
+                    <div class="img_video">
+                      <iframe width="343" height="193" src="https://www.youtube.com/embed/wWUEx9L4f18" title="YouTube video player" 
+                      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="content_name_video">
+                      <div class="img_user_video">
+                        <img src="./assets/img/popskids.jpg"  class="img_user_video">
+                      </div>
+                      <div class="name_video_and_info">
+                        <a href="https://www.youtube.com/embed/wWUEx9L4f18" class="name_video"><strong>[s10] Doraemon Phần 10 - Tổng Hợp Bộ Hoạt Hình Doraemon Hay Nhất - POPS Kids</strong></a>
+                        <a href="https://www.youtube.com/@popskids" class="info_video">POPS Kids</a>
+                        <p class="info_video">1.139.254 lượt xem - 1 ngày trước</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content_video">
+                    <div class="img_video">
+                      <iframe width="343" height="193" src="https://www.youtube.com/embed/wWUEx9L4f18" title="YouTube video player" 
+                      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="content_name_video">
+                      <div class="img_user_video">
+                        <img src="./assets/img/popskids.jpg"  class="img_user_video">
+                      </div>
+                      <div class="name_video_and_info">
+                        <a href="https://www.youtube.com/embed/wWUEx9L4f18" class="name_video"><strong>[s10] Doraemon Phần 10 - Tổng Hợp Bộ Hoạt Hình Doraemon Hay Nhất - POPS Kids</strong></a>
+                        <a href="https://www.youtube.com/@popskids" class="info_video">POPS Kids</a>
+                        <p class="info_video">1.139.254 lượt xem - 1 ngày trước</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+      </div>
+      
+      </div>
+    </div>
+</body>
+</html>
